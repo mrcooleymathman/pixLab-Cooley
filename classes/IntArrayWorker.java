@@ -98,5 +98,17 @@ public class IntArrayWorker
       }
     }
   }
+
+  public int getCount(int valueToMatch){
+      int count = 0;
+      for (int[] rowArray: this.matrix){
+          for (int matrixValue: rowArray){
+              if(valueToMatch == matrixValue){
+                  count++;
+              }
+          }
+      }
+      return count;
+  }
  
 }
