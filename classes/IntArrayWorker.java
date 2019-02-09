@@ -100,6 +100,7 @@ public class IntArrayWorker
   }
 
   public int getCount(int valueToMatch){
+    // comment
       int count = 0;
       for (int[] rowArray: this.matrix){
           for (int matrixValue: rowArray){
